@@ -28,7 +28,7 @@
     ec2_vpc_subnet:
       state: present
       vpc_id: "{{ result_vpc.vpc.id }}"
-      cidr: " {{ subnet_cidr_blcok }}"
+      cidr: " {{ subnet_cidr_block }}"
       region: "{{ aws_region }}"
       tags:
         Name: webserver_Subnet
