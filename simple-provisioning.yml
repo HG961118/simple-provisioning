@@ -34,9 +34,7 @@
         Name: webserver_Subnet
     register: result_subnet
     
-  - name: Create igw
-    ec2_vpc_igw:
-      region: "
+  
     
     
     
